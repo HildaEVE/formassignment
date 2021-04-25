@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment</title>
+    <link rel="stylesheets" href="css/index.css"/>
+    <style>
+        .topnav {
+    background-color: black;
+    overflow: hidden;
+}
+.topnav-right {
+    float: left;
+    color: cornflowerblue;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.topnav-right a:hover {
+    background-color: darkgreen;
+    color: gold;
+}
+.topnav a:active {
+    background-color: hotpink;
+    color: black;
+}
+.topnav-right {
+    float: right;
+}
+    </style>
+</head>
+<body style="background-color: aquamarine;">
+    <div  class="topnav-right">
+        <a class="active" href="#home">Home</a>
+        <a href="#about_us">About us</a>
+        <a href="contact">contact</a><br>
+    </div>
+    <div>
+        <nav class="navbar_top">
+         <img src="./logo.jpg"
+              width="50"  
+              height="50" />
+        </nav>
+    </div>
+</div>
+    <div style="padding-top: 50px;">
+        <h1>Review Form</h1><br>
+        <form action="/review_page.php">
+        <label for="fname">Full name:</label><br>
+        <input type="text" id="fname" name="fname" value="Gift"><br>
+        <label for="email">Email:</label><br>
+        <input type="text" id="email" name="email" value="gift29@gmail.com"><br>
+        <label for="review">Your Review</label><br>
+        <textarea name="review" cols="40" rows="15"></textarea><br>
+    <input type="submit" value="SUBMIT" /><br>
+        </form>
+    </div>
+
+    
+</body>
+</html>

@@ -1,0 +1,20 @@
+.topnav {
+    background-color: rgba(170, 23, 23, 0.774);
+    overflow: hidden;
+}
+.topnav {
+    float: left;
+    color: cornflowerblue;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.topnav a:hover {
+    background-color: darkgreen;
+    color: gold;
+}
+.topnav a:active {
+    background-color: hotpink;
+    color: indianred;
+}
