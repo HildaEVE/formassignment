@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid+flex</title>
+    <style>
+     * {
+      box-sizing: border-box;  
+    }
+    .grid{
+        display: grid;
+        grid-gap: 1em;
+        grid-template-columns: repeat(auto-fit, minmax(20em,1fr));
+    }
+    .flex{
+        display: flex;
+        flex-direction: column;
+        box-shadow: 1px 1px 5px rgba(0,0,0,.5);
+        padding: 1em;
+        border-radius: 25px;
+    }
+    .flex:hover{
+        box-shadow:0 20px 40px rgba(248, 45, 18, 0.651);
+    } 
+    .nav {
+        background-color: darkgray;
+        width: 25%;
+        float: left;
+        height: 100vh;
+        border-right: 1vh solid white;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+    }
+    .nav a:hover {
+        background-color: black;
+        color: orange;
+    }
+    .main{
+        display: grid;
+        background-color:rgb(238, 192, 200);
+        width: 75%;
+        float: left;
+        height: 100vh;
+        margin: 0;
+        padding: 0;
+        border-radius: 25px;
+    }   
+   
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <h1>Profile</h1>
+        <a href="#">Home</a>
+        <a href="#">About us</a>
+        <a href="#">Notifications</a>
+        <a href="#">Settings</a>
+    </div>
+    <div class="main">
+        <div class="grid">
+            <div class="flex">
+                <p>We are here to serve you and we honor you</p>
+            </div>
+            <div class="flex">
+                <p>We are here to serve you and we honor you</p>
+            </div>
+            <div class="flex">
+                <p>We are here to serve you and we honor you</p>
+            </div>
+            <div class="flex">
+                <p>We are here to serve you and we honor you</p>
+            </div>
+            <div class="flex">
+                <p>We are here to serve you and we honor you</p>
+            </div>
+            <div class="flex">
+                <p>We are here to serve you and we honor you</p>
+            </div>
+            <div class="flex">
+                <p>We are here to serve you and we honor you</p>
+            </div>
+            <div class="flex">
+                <p>We are here to serve you and we honor you</p>
+            </div>
+            <div class="flex">
+                <p>We are here to serve you and we honor you</p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        &copy;
+        <p>Nakyondwa Hilda Evelyn 2021 </p>
+    </footer>
+    
+</body>
+</html>
